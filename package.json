@@ -1,0 +1,14 @@
+{
+  "name": "@sergey-pisarevskiy/shared-configs",
+  "version": "1.0.0",
+  "predeploy": "npm version patch",
+  "engines": {
+    "node": ">=12"
+    },
+  "files": [
+        "tsconfig.json",
+        ".eslintrc.js",
+        ".prettierrc.js"
+    ],
+  "description": ""
+}
