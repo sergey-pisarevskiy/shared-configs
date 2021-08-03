@@ -1,6 +1,6 @@
 {
   "name": "test-shared-configs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "predeploy": "npm version patch",
   "files": [
     "tsconfig.json",
