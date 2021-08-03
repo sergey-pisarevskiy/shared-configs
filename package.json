@@ -1,14 +1,25 @@
 {
-  "name": "@sergey-pisarevskiy/shared-configs",
+  "name": "test-shared-configs",
   "version": "1.0.0",
   "predeploy": "npm version patch",
-  "engines": {
-    "node": ">=12"
-    },
   "files": [
         "tsconfig.json",
         ".eslintrc.js",
         ".prettierrc.js"
     ],
-  "description": ""
+  "description": "",
+  "engines": {
+    "typescript": "^4.x.x",
+    "node": ">=12.x",
+    "eslint": ">=7.x",
+    "prettier": ">=2.x"
+  },
+  "peerDependencies": {
+    "eslint": "7.x.x",
+    "prettier": "2.x.x",
+    "typescript": "4.x.x",
+    "eslint-config-prettier": "8.x.x",
+    "eslint-plugin-import": "2.x.x",
+    "eslint-plugin-prettier": "3.x.x"
+  }
 }
